@@ -1,0 +1,72 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "tutorial.feature:3",
+      "name": "Access Google and Search 591",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "tutorial.feature:4",
+          "match": {
+            "arguments": [
+              {
+                "name": "Url",
+                "value": "http://google.com.tw"
+              }
+            ],
+            "location": "steps\\tutorial.py:3"
+          },
+          "name": "Login website \"http://google.com.tw\"",
+          "result": {
+            "duration": 1.128465175628662,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "tutorial.feature:5",
+          "match": {
+            "arguments": [
+              {
+                "name": "searchValue",
+                "value": "591"
+              }
+            ],
+            "location": "steps\\tutorial.py:7"
+          },
+          "name": "click search text with \"591\"",
+          "result": {
+            "duration": 0.2983872890472412,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "tutorial.feature:6",
+          "match": {
+            "arguments": [],
+            "location": "steps\\tutorial.py:15"
+          },
+          "name": "Close",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "tutorial.feature:1",
+  "name": "showing off behave",
+  "status": "passed",
+  "tags": []
+}
+]

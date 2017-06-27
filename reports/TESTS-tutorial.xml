@@ -1,0 +1,20 @@
+<testsuite errors="0" failures="0" name="tutorial.showing off behave" skipped="0" tests="1" time="3.632815"><testcase classname="tutorial.showing off behave" name="Access Google and Search 591" status="passed" time="3.632815"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Access Google and Search 591
+    Given Login website "http://google.com.tw" ... passed in 2.646s
+    When click search text with "591" ... passed in 0.986s
+    Then Close ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+('id', 'lst-ib')
+('id', 'lst-ib')
+('id', 'lst-ib')
+('class name', 'lsb')
+close
+
+]]>
+</system-out></testcase></testsuite>
